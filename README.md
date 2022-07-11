@@ -1,12 +1,14 @@
 # academic-page
-Tailwind v2 and Javascript were used to create a single academic page that displayed publications from ORCID and Crossref. [Profile Card](https://github.com/tailwindtoolbox/Profile-Card) was used as a starting point.
-The publication data is independently pulled from ORCID and Crossref. So, please add your publication to the ORCID website at https://orcid.org.
-You need to have NodeJS: https://nodejs.org/en/installed on your computer in order to run the `npm` command.
+- Tailwind v2 and Javascript were used to create a single academic page that displayed publications from ORCID and Crossref. 
+- [Profile Card](https://github.com/tailwindtoolbox/Profile-Card) was used as a starting point.
+- The publication data is independently pulled from ORCID and Crossref. So, please add your publication to the ORCID website at https://orcid.org.
+- You need to have NodeJS: https://nodejs.org/en/installed on your computer in order to run the `npm` command.
 
 ![Academic-Page](academic-page-demo.gif)
 
+# DEMO
 
-# DEMO: https://academic-page.pages.dev (Hosted on Pages, Thanks Cloudflare!)
+LIVE: https://academic-page.pages.dev (Hosted on Pages, FREE, Thanks to Cloudflare!)
 
 # How to
 Use this template: https://github.com/justudin/academic-page/generate and make few 3 changes:
