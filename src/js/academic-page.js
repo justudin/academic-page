@@ -24,7 +24,7 @@ const fethWorks = async () => {
             workCount.innerHTML = "<button id='detailPublications'>Publications*: " + workItems.total_papers + "</button>";
             totalCitations.innerHTML = "Citations*: " + workItems.total_citations;
             hIndex.innerHTML = "H-index*: " + workItems.hindex;
-            footerInfo.innerHTML = '<p class="italic">*This data only shows the publications with valid Digital Object Identifier addresses. They are obtained from ORCID and Crossref independently, and may differ from Google Scholar. Generated as of ' + workItems.updated + '. Developed using <a href="https://github.com/justudin/academic-page" target="_blank">Academic Page</a></p>';
+            footerInfo.innerHTML = '<p class="italic">*This data only shows the publications with valid Digital Object Identifier addresses. They are obtained from ORCID and Crossref independently, and may differ from Google Scholar. Generated as of ' + workItems.updated + '.</p>';
             const modal = document.getElementById("my-modal");
             const btnOpen = document.getElementById("detailPublications");
             const btnClose = document.getElementById("ok-btn");
@@ -51,6 +51,9 @@ const fethWorks = async () => {
 };
 
 fethWorks();
+
+const yearbuild = document.getElementById("yearbuild");
+yearbuild.innerHTML = new Date().getFullYear();
 
 //Init tooltips
 tippy('.link', {
