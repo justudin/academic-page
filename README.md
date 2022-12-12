@@ -25,6 +25,12 @@ profile_desktop <- for the profile picture shows in the desktop
 const YOUR_ORCID = "0000-0002-5640-4413"; // change this value with your actual ORCID
 
 ``` 
+and change the URL of your academic back-end (source code: https://github.com/justudin/academic-page-backend)
+```
+const YOUR_ACADEMIC_BACKEND_URL = "localhost:9000"; // change this value with your actual academic back-end URL
+
+// or contact me so I can provide you with my back-end URL
+```
 
 - In `src/index.html` : change your name, biography, links, etc as you wish.
 
