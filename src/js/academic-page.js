@@ -1,10 +1,13 @@
 /* academic-page v0.1.1 | (c) 2022 by Muhammad Syafrudin */
 
 const YOUR_ORCID = "0000-0002-5640-4413"; // change this value with your actual ORCID
+const YOUR_ACADEMIC_BACKEND_URL = "localhost:9000"; // change this value with your actual academic back-end URL
+// back-end source code: https://github.com/justudin/academic-page-backend
+// or contact me so I can provide you with my back-end URL
 
 const fethWorks = async () => {
     try {
-        const response = await axios.get('https://academic-page.herokuapp.com/orcid/'+YOUR_ORCID+'/works');
+        const response = await axios.get('https://YOUR_ACADEMIC_BACKEND_URL/orcid/'+YOUR_ORCID+'/works');
         const workItems = response.data;
         //console.log(workItems)
         const animateLoading = document.getElementById('animateLoading');
